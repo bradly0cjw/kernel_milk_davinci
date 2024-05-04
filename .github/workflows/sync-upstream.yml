@@ -44,11 +44,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: pixelos-14.0
+          ref: pixelos-14qpr2
           fetch-depth: 0
       - name: Sync Upstream
         uses: zhangnew/sync-upstream@v1
         with:
           upstream: PixelOS-Devices/kernel_xiaomi_sm6150
           upstream-branch: fourteen
-          branch: pixelos-14.0
+          branch: pixelos-14qpr2
